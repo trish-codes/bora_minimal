@@ -1,0 +1,183 @@
+/* BORA PH STYLE */
+
+
+.home{
+    background: url('img/background.jpg') center center no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: 'Cutive Mono' ;
+    font-size: 15px;
+}
+
+body{
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+body.contact{
+   background: linear-gradient(to right, rgba(188,224,238,1) 20%,rgba(41,184,229,1) 50%,rgba(188,224,238,1) 80%);
+}
+body.planning{
+    background: linear-gradient(to right, rgba(96,180,105,1) 20%,rgba(47,129,51,1) 50%,rgba(96,180,105,1) 80%);
+}
+body.adventures{
+    background: linear-gradient(to right, rgba(205,107,65,1) 20%,rgba(153,53,23,1) 50%,rgba(204,110,72,1) 80%);
+}
+
+#container{
+    width: 620px;
+    margin: 0 auto;
+}
+
+#header{
+   text-align: center;
+    padding: 5px;
+    border-bottom: solid 1px white;
+    padding-bottom: 0.5cm; 
+}
+
+
+#headerhome{
+    text-align: center;
+    padding: 5px;
+    border-bottom: solid 1px white;
+}   
+
+
+nav{
+   margin-top: 20px 
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin:0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 20px;
+    margin-bottom: 0px;
+        
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: black;
+}
+
+#tagline {
+    text-align: center;
+    margin: 45px 0 0;
+}
+
+#tagline h1{
+    margin-bottom: 150px;
+    font-size: 45px;
+     font-family: 'Amatic SC', cursive;
+}
+
+#contacttagline h1{
+    font-size: 45px;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+}
+
+#planningtagline h1{
+    font-size: 45px;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+#adventurestagline h1{
+    font-size: 45px;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    font-weight: 700;
+    color: black;
+}
+
+#contactlist p{
+    font-family: 'Cutive Mono' ;
+    text-transform: uppercase;
+    color:white;
+    font-weight: 600;
+}
+
+#contactlist li{
+    font-family: 'Cutive Mono' ;
+    color:black;
+    list-style: square;
+    font-weight: 600;
+}
+
+a.button{
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    border-radius: 10px;
+    opacity: 0.5;
+    background: black;
+    padding-top: 15px; 
+    padding-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 50px
+}
+
+a.button:hover{
+    color: white;
+    text-shadow: 0 1px 5px #333;
+}
+
+a.button:active{
+    position: relative;
+    top: 2px;
+}
+
+#googleMaps{
+    align-content: center;
+}
+
+.col-sm-4{
+    position: relative;
+
+}
+
+footer {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 125px;
+    font-family: 'Amatic SC', cursive;
+    font-weight: bolder;
+    
+}
+
+#adventurestagline p{
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    font-size: 26px;
+    color: white;
+}
+
+.img-rounded{
+    padding-right: 0px;
+    margin-top: 50px;
+    
+    
+}
+
+.btn {
+    text-transform: uppercase;
+    font-family:  'Amatic SC', cursive;
+    font-weight: bold;
+    position: absolute;
+    left: 160px; top:0px;
+}
