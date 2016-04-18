@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+    <title>BORACAY PHILIPPINES</title>
+    <!-------- Normalize.css ----------------------->
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+        
+    <!-------- Custom CSS -------------------------->
+    <link rel="stylesheet" type="text/css" href="style.css">
+        
+     <!---------FONTS--------------------------------->
+    <link href='https://fonts.googleapis.com/css?family=Amatic+SC:700,400' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Cutive+Mono' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Nova+Mono' rel='stylesheet' type='text/css'>    
+     
+    <!----------MAPS---------------------------------->
+    <script src="http://maps.googleapis.com/maps/api/js"></script>
+        <script>
+            function initialize() {
+            var mapProp = {
+            center:new google.maps.LatLng(11.9694, 121.9272),
+            zoom:5,
+            mapTypeId:google.maps.MapTypeId.ROADMAP
+            };
+            var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+            }
+            google.maps.event.addDomListener(window, 'load', initialize);
+    </script>    
+    </head>
+    
+    <body class="contact">
+            <header id="header">
+                <a href="bora.html">
+                    <img src="img/logo.png" alt="BORA PH Logo">
+                </a>
+            </header>
+            <div id="container">
+            <section id="contacttagline">
+                <h1>Contact</h1>
+                
+                    <ul id=contactlist>
+                        <p>Office:</p>
+                        <li>9 AM to 6 PM  (+8 GMT) Monday to Sunday</li>
+                        <p>Email:</p>
+                        <li>info@myboracayguide.com</li>
+                        <p>Telephone:</p>
+                        <li>(+63)(36)288-9999</li>
+                    </ul>
+            <div id="googleMap" style="width:620px;height:380px;"></div>
+
+            </section>
+
+            <footer>
+                <p>COPYRIGHT&copy; 2016 BORA PH</p>
+
+            </footer>
+            </div> <!-----------END CONTAINER------------------->
+    
+    
+    
+    
+    
+    </body>
+
+
+</html>
